@@ -30,7 +30,7 @@ input:focus {
 }
 
 nav a {
-  background:linear-gradient(to bottom, rgba(122,122,122,1) 0%, rgba(122,122,122,1) 50%, rgba(77,77,77,1) 51%, rgba(80,80,80,1) 60%, rgba(77,77,77,0.8) 100%);
+  background: linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(122, 122, 122, 1) 50%, rgba(77, 77, 77, 1) 51%, rgba(80, 80, 80, 1) 60%, rgba(77, 77, 77, 0.8) 100%);
   display: inline;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@ nav a input {
   width: 80%;
   margin-top: 7px;
   border-radius: 10px;
-  background:linear-gradient(to bottom, rgba(122,122,122,1) 0%, rgba(122,122,122,1) 50%, rgba(77,77,77,1) 51%, rgba(80,80,80,1) 60%, rgba(77,77,77,0.8) 100%);
+  background:linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(122, 122, 122, 1) 50%, rgba(77, 77, 77, 1) 51%, rgba(80, 80, 80, 1) 60%, rgba(77, 77, 77, 0.8) 100%);
 }
 
 .apple-logo {
