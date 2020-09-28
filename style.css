@@ -74,7 +74,7 @@ footer {
   justify-content: center;
 }
 
-.image-bottom > img{
+.image-bottom > img {
   padding: 0;
   margin: 0;
   width: 460px;
@@ -91,21 +91,27 @@ footer {
   color: #737373;
 }
 
-.left-footer > p > a {
-  text-decoration: none;
-  color: #0088cc;
-}
-
 .tou > a {
   display: inline;
   text-decoration: none;
-  color: #0088cc;
+  color: #08c;
 }
 
 .privacy > a {
   text-decoration: none;
-  color: #0088cc;
+  color: #08c;
 }
+
+.right-footer-container > a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.left-footer > p > a {
+  text-decoration: none;
+  color: #08c;
+}
+
 
 .right-footer {
   display: flex;
@@ -121,11 +127,6 @@ footer {
   padding-right: 5px;
   font-size: 11px;
   height: 15px;
-}
-
-.right-footer-container > a {
-  text-decoration: none;
-  color: #0088cc;
 }
 
 .right-footer-container:not(:last-child) {
