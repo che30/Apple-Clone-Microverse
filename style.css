@@ -93,18 +93,18 @@ footer {
 
 .left-footer > p > a {
   text-decoration: none;
-  color: #0088CC;
+  color: #0088cc;
 }
 
 .tou > a {
   display: inline;
   text-decoration: none;
-  color: #0088CC;
+  color: #0088cc;
 }
 
 .privacy > a {
   text-decoration: none;
-  color: #0088CC;
+  color: #0088cc;
 }
 
 .right-footer {
@@ -125,7 +125,7 @@ footer {
 
 .right-footer-container > a {
   text-decoration: none;
-  color: #0088CC;
+  color: #0088cc;
 }
 
 .right-footer-container:not(:last-child) {
