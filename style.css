@@ -4,7 +4,7 @@ body {
   background-size: 100%;
   background-position: 0 160%;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 0.80em;
+  font-size: .80em;
 }
 
 .nav-gradient {
@@ -41,6 +41,27 @@ body {
 
 .navbar > a > span {
   margin-left: 35px;
+}
+
+.tou > a {
+  display: inline;
+  text-decoration: none;
+  color: #08c;
+}
+
+.privacy > a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.right-footer-container > a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.left-footer > p > a {
+  text-decoration: none;
+  color: #08c;
 }
 
 .navbar > a:hover {
@@ -115,27 +136,6 @@ body {
 .left-footer > p {
   font-size: 11px;
   color: #737373;
-}
-
-.tou > a {
-  display: inline;
-  text-decoration: none;
-  color: #08c;
-}
-
-.privacy > a {
-  text-decoration: none;
-  color: #08c;
-}
-
-.right-footer-container > a {
-  text-decoration: none;
-  color: #08c;
-}
-
-.left-footer > p > a {
-  text-decoration: none;
-  color: #08c;
 }
 
 .right-footer {
