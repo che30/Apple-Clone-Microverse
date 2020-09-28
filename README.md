@@ -13,7 +13,7 @@ A clone of the Apple Home Page.
 
 ## Live Demo
 
-[Live Demo Link](https://pointerish.github.io/Apple-Clone-Microverse/)
+[Live Demo Link](https://che30.github.io/Apple-Clone-Microverse/)
 
 ## Authors
 
