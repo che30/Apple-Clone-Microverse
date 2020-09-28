@@ -2,16 +2,19 @@ body {
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -87em;
+  background-position: 0 160%;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 12px;
-  height: 1015px;
 }
 
 .nav-gradient {
   background: linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(122, 122, 122, 1) 50%, rgba(77, 77, 77, 1) 51%, rgba(80, 80, 80, 1) 60%, rgba(77, 77, 77, 0.8) 100%);
   display: inline;
   text-decoration: none;
+}
+
+.nav-button:hover {
+  color: #595959
 }
 
 .main-wrapper {
@@ -86,9 +89,8 @@ footer {
 }
 
 .image-bottom > img {
-  padding: 0;
-  margin: 0;
-  width: 476px;
+  width: 337px;
+  margin-top: -118px;
 }
 
 .bottom-footer {
