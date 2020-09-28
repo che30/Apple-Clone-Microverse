@@ -1,0 +1,134 @@
+body {
+    background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -1060px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    height: 1015px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: grid;
+  width: 960px;
+  grid-template-columns: repeat(8, 1fr) 130px;
+  grid-template-rows: 36px;
+  border-radius: 4px;
+  justify-items: stretch;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+nav a {
+  background:linear-gradient(to bottom, rgba(122,122,122,1) 0%, rgba(122,122,122,1) 50%, rgba(77,77,77,1) 51%, rgba(80,80,80,1) 60%, rgba(77,77,77,0.8) 100%);
+  display: inline;
+  text-decoration: none;
+}
+
+nav a span {
+  text-align: center;
+  line-height: 36px;
+  color: white;
+}
+
+nav a input {
+  width: 80%;
+  margin-top: 7px;
+  border-radius: 10px;
+  background:linear-gradient(to bottom, rgba(122,122,122,1) 0%, rgba(122,122,122,1) 50%, rgba(77,77,77,1) 51%, rgba(80,80,80,1) 60%, rgba(77,77,77,0.8) 100%);
+}
+
+.apple-logo {
+  margin-top: 4px;
+  margin-left: 40px;
+}
+
+.text-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-images img {
+  width: 600px;
+  margin-left: 33%;
+  margin-top: 5%;
+  margin-bottom: -4%;
+}
+
+footer {
+  display: inline-flex;
+  margin-top: 325px;
+  width: 100%;
+  align-content: stretch;
+  justify-content: center;
+}
+
+.image-bottom > img{
+  padding: 0;
+  margin: 0;
+  width: 475px;
+}
+
+.bottom-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.left-footer > p {
+  font-size: 11px;
+  color: #737373;
+}
+
+.left-footer > p > a {
+  text-decoration: none;
+  color: #0088CC;
+}
+
+.tou > a {
+  display: inline;
+  text-decoration: none;
+  color: #0088CC;
+}
+
+.privacy > a {
+  text-decoration: none;
+  color: #0088CC;
+}
+
+.right-footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.right-footer-container {
+  text-align: justify;
+  padding-top: 5px;
+  margin: 0px 5px 0 5px;
+  padding-right: 5px;
+  font-size: 11px;
+  height: 15px;
+}
+
+.right-footer-container > a {
+  text-decoration: none;
+  color: #0088CC;
+}
+
+.right-footer-container:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
