@@ -177,9 +177,9 @@ body {
 
 .bottom-footer {
   display: flex;
-  width: 100%;
+  width: 96%;
   height: 5%;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 .left-footer {
@@ -189,6 +189,11 @@ body {
 .left-footer > p {
   font-size: 11px;
   color: #737373;
+}
+
+.separator {
+  list-style: none;
+  flex-grow: 4;
 }
 
 .right-footer {
@@ -202,10 +207,10 @@ body {
   text-align: justify;
   padding-top: 5px;
   margin: 0 5px 0 5px;
-  padding-right: 0.3125em;
   font-size: 11px;
   height: 15px;
   list-style: none;
+  padding-right: 0;
 }
 
 @media screen and (max-height: 768px) {
