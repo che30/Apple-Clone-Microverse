@@ -6,7 +6,10 @@ body {
   background-image: url("assets/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -100vh;
+  background-position: 0 -110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-gradient {
