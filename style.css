@@ -5,8 +5,8 @@ body {
   margin: 0;
   background-image: url("assets/your-hero.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 -80vh;
+  background-size: 100%;
+  background-position: 0 -10vh;
 }
 
 .nav-gradient {
@@ -193,4 +193,10 @@ body {
   padding-right: 0.3125em;
   font-size: 11px;
   height: 15px;
+}
+
+@media screen and (max-height: 768px) {
+  body {
+    background-position: 0 0;
+  }
 }
