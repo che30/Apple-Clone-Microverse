@@ -1,14 +1,12 @@
-html {
-  background-image: url("assets/your-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  background-image: url("assets/your-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -80vh;
 }
 
 .nav-gradient {
@@ -24,7 +22,7 @@ body {
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   height: 100vh;
   flex-grow: 1;
 }
@@ -109,31 +107,30 @@ body {
 .text-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  font-family: 'Raleway';
-  font-weight: 100;
-  flex-grow: 4;
-
+  font-family: 'Work Sans';
+  flex-grow: 1;
 }
 
 .verse-be {
   font-weight: lighter;
   color: white;
-  font-size: 58px;
+  font-size: 4rem;
+  margin-bottom: 0%;
+  margin-top: 5%;
 }
 
 .second-p {
-  padding: 0;
-  font-weight: lighter;
+  padding-top: -2.3rem;
   color: white;
-  font-size: 28px;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .third-p {
-  font-weight: lighter;
+  display: block;
   font-size: 22px;
-  margin-top: -15px;
 }
 
 .third-p > a {
@@ -151,23 +148,31 @@ body {
 
 .image-footer {
   display: flex;
-  align-content: space-around;
-  justify-content: center;
-  width: 100%;
-  flex-grow: 4;
+  align-items: stretch;
+
 }
 
-.image-bottom > img {
-  display: flex;
+.image-footer > div {
   align-items: center;
-  justify-content: space-between;
-  padding: 0;
+  justify-content: space-evenly;
+  width: 25%;
   margin: 0;
+  padding: 0;
+}
+
+.image-footer > div > img {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .bottom-footer {
+  background-colo: white;
   display: flex;
   width: 100%;
+  height: 5%;
   justify-content: space-evenly;
 }
 
@@ -190,8 +195,4 @@ body {
   padding-right: 0.3125em;
   font-size: 11px;
   height: 15px;
-}
-
-.right-footer-container:not(:last-child) {
-  border-right: 1px solid #ccc;
 }
