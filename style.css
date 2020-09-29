@@ -15,6 +15,10 @@ body {
   text-decoration: none;
 }
 
+.nav-button {
+  border: 1px solid #595959;
+}
+
 .nav-button:hover {
   color: #595959;
 }
@@ -38,10 +42,6 @@ body {
   margin-right: auto;
   border: 1px solid #595959;
   border-radius: 4px;
-}
-
-.nav-button {
-  border: 1px solid #595959;
 }
 
 .navbar div {
