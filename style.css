@@ -3,10 +3,10 @@ body {
   font-size: 0.8em;
   padding: 0;
   margin: 0;
-  background-image: url("assets/your-hero.jpg");
+  background-image: url("assets/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -10vh;
+  background-position: 0 -100vh;
 }
 
 .nav-gradient {
@@ -19,14 +19,15 @@ body {
   border: 1px solid #595959;
 }
 
-.nav-button:hover {
-  color: #595959;
+.navbar > li > a {
+  text-decoration: none;
+  color: white;
 }
 
 .main-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100vh;
   flex-grow: 1;
 }
@@ -42,13 +43,14 @@ body {
   margin-right: auto;
   border: 1px solid #595959;
   border-radius: 4px;
+  padding: 0;
 }
 
-.navbar div {
+.navbar .search-container {
   position: relative;
 }
 
-.navbar > a > span {
+.navbar > li {
   margin-left: 35px;
 }
 
@@ -61,6 +63,7 @@ body {
 .privacy > a {
   text-decoration: none;
   color: #08c;
+  margin-left: 5px;
 }
 
 .third-p > a {
@@ -68,17 +71,13 @@ body {
   text-decoration: none;
 }
 
-.right-footer-container > a {
-  text-decoration: none;
-  color: #08c;
-}
-
+.right-footer-container > a,
 .left-footer > p > a {
   text-decoration: none;
   color: #08c;
 }
 
-.image-footer > div {
+.image-container > div {
   align-items: center;
   justify-content: space-evenly;
   width: 25%;
@@ -86,11 +85,7 @@ body {
   padding: 0;
 }
 
-.navbar > a:hover {
-  background: linear-gradient(to bottom, rgba(66, 66, 66, 1) 0%, rgba(66, 66, 66, 1) 50%, rgba(55, 55, 55, 1) 51%, rgba(60, 60, 60, 1) 60%, rgba(55, 55, 55, 0.8) 100%);
-}
-
-.navbar > div:hover {
+.nav-button:hover {
   background: linear-gradient(to bottom, rgba(66, 66, 66, 1) 0%, rgba(66, 66, 66, 1) 50%, rgba(55, 55, 55, 1) 51%, rgba(60, 60, 60, 1) 60%, rgba(55, 55, 55, 0.8) 100%);
 }
 
@@ -112,15 +107,19 @@ body {
   outline: none;
 }
 
-.navbar a span {
+.navbar li {
   text-align: center;
   line-height: 36px;
   color: white;
+  list-style: none;
+  font-weight: 700;
+  font-family: 'Work Sans', Helvetica, Arial, Verdana, sans-serif;
+  margin-left: -2%;
+  text-decoration: none;
 }
 
 .apple-logo {
   margin-top: 4px;
-  margin-left: 40px;
 }
 
 .text-section {
@@ -128,15 +127,12 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'Work Sans', Helvetica, Arial, Verdana, sans-serif;
-  flex-grow: 1;
 }
 
 .verse-be {
   font-weight: lighter;
   color: white;
   font-size: 4rem;
-  margin-bottom: 0%;
-  margin-top: 5%;
 }
 
 .second-p {
@@ -145,6 +141,7 @@ body {
   font-size: 1.8rem;
   word-wrap: break-word;
   text-align: center;
+  flex-grow: 1;
 }
 
 .third-p {
@@ -162,10 +159,15 @@ body {
 
 .image-footer {
   display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
   align-items: stretch;
 }
 
-.image-footer > div > img {
+.image-container > div > img {
   align-items: center;
   width: 100%;
   height: 100%;
@@ -187,8 +189,8 @@ body {
 
 .right-footer {
   display: flex;
-  justify-content: flex-end;
   height: 30px;
+  align-items: flex-end;
   margin-top: 30px;
 }
 
@@ -199,10 +201,15 @@ body {
   padding-right: 0.3125em;
   font-size: 11px;
   height: 15px;
+  list-style: none;
+}
+
+.separator {
+  list-style: none;
 }
 
 @media screen and (max-height: 768px) {
   body {
-    background-position: 0 0;
+    background-position: 0 -80vh;
   }
 }
