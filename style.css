@@ -1,0 +1,223 @@
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+  background-image: url("assets/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-gradient {
+  background: linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(122, 122, 122, 1) 50%, rgba(77, 77, 77, 1) 51%, rgba(80, 80, 80, 1) 60%, rgba(77, 77, 77, 0.8) 100%);
+  display: inline;
+  text-decoration: none;
+}
+
+.nav-button {
+  border: 1px solid #595959;
+}
+
+.tou > a {
+  display: inline;
+  text-decoration: none;
+  color: #08c;
+}
+
+.privacy > a {
+  text-decoration: none;
+  color: #08c;
+  margin-left: 5px;
+}
+
+.third-p > a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-footer-container > a,
+.left-footer > p > a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.navbar > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+.navbar {
+  display: grid;
+  width: 990px;
+  grid-template-columns: repeat(8, 1fr) 130px;
+  grid-template-rows: 36px;
+  justify-items: stretch;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #595959;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.navbar .search-container {
+  position: relative;
+}
+
+.navbar > li {
+  margin-left: 35px;
+}
+
+.image-container > div {
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-button:hover {
+  background: linear-gradient(to bottom, rgba(66, 66, 66, 1) 0%, rgba(66, 66, 66, 1) 50%, rgba(55, 55, 55, 1) 51%, rgba(60, 60, 60, 1) 60%, rgba(55, 55, 55, 0.8) 100%);
+}
+
+.search-icon {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.search-box {
+  width: 80%;
+  margin-top: 7px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background: linear-gradient(to bottom, rgba(122, 122, 122, 1) 0%, rgba(122, 122, 122, 1) 50%, rgba(77, 77, 77, 1) 51%, rgba(80, 80, 80, 1) 60%, rgba(77, 77, 77, 0.8) 100%);
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.navbar li {
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  list-style: none;
+  font-weight: 700;
+  font-family: 'Work Sans', Helvetica, Arial, Verdana, sans-serif;
+  margin-left: -2%;
+  text-decoration: none;
+}
+
+.apple-logo {
+  margin-top: 4px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Work Sans', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.verse-be {
+  font-weight: lighter;
+  color: white;
+  font-size: 4rem;
+}
+
+.second-p {
+  padding-top: -2.3rem;
+  color: white;
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.third-p {
+  display: block;
+  font-size: 22px;
+}
+
+.third-p > a:hover {
+  text-decoration: underline;
+}
+
+.play-icon {
+  color: white;
+}
+
+.image-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.image-container > div > img {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-footer {
+  display: flex;
+  width: 96%;
+  height: 5%;
+  justify-content: flex-end;
+}
+
+.left-footer {
+  list-style: none;
+}
+
+.left-footer > p {
+  font-size: 11px;
+  color: #737373;
+}
+
+.separator {
+  list-style: none;
+  flex-grow: 4;
+}
+
+.right-footer {
+  display: flex;
+  height: 30px;
+  align-self: flex-end;
+  margin-top: 30px;
+}
+
+.right-footer-container {
+  text-align: justify;
+  padding-top: 5px;
+  margin: 0 5px 0 5px;
+  font-size: 11px;
+  height: 15px;
+  list-style: none;
+  padding-right: 0;
+}
+
+@media screen and (max-height: 768px) {
+  body {
+    background-position: 0 -80vh;
+  }
+}

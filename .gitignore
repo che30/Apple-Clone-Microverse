@@ -1,0 +1,5 @@
+hint-report
+.vscode
+*.json
+.hintrc
+node_modules
